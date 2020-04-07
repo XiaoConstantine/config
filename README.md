@@ -62,6 +62,12 @@ Caused by homebrew not maintaining python2 any longer, fix by:
     python@2.rb (any place works)
     brew reinstall python@2
 
+> Under uc folder, python cannot import 
+    dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Fix by: 
+    ls -al /usr/local/Cellar/openssl*
+    brew switch openssl 1.0.2t (to the version older than 1.1.1f)
+
 ### MarkPreview Browser Not showing up (nvim)
 > Go to markPreview dir under plugged and manually run:
     npm install
