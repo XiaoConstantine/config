@@ -14,4 +14,9 @@ Nvim/Ranger
 
 
 
+# Install FZF
+
+> brew install fzf
+
+# Install Ranger
 
