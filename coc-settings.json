@@ -79,7 +79,8 @@
 	"explorer.file.column.indent.indentLine": true,
 	"explorer.file.showHiddenFiles": true,
 	"explorer.icon.enableNerdfont": true,
-	"explorer.file.column.git.showIgnored": true,
+    // This line seems has huge performance impact on explorer, disabled
+	//"explorer.file.column.git.showIgnored": true,
 	"explorer.keyMappingMode": "none",
 	"explorer.keyMappings": {
 		"u": "nodePrev",
